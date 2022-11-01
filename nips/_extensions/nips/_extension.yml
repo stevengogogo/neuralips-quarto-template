@@ -1,0 +1,18 @@
+title: Nips
+author: Shao-Ting Chiu
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  formats:
+    common:
+      toc: true
+      filters:
+        - nips.lua
+    pdf:
+      documentclass: article
+      include-in-header: header.tex
+      keep-tex: true
+      
+    html:
+      css: styles.css
+
